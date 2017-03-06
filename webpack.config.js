@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  devtool: 'eval',
+  devtool: 'source-map',
   entry: './src/index.jsx',
   output: {
     path: path.join(__dirname, 'dist'),
