@@ -2,6 +2,9 @@
   "name": "06feb2017-react",
   "version": "1.0.0",
   "description": "Some example project",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server"
+  },
   "engines": {
     "node": ">=6.0.0"
   },
